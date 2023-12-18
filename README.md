@@ -10,17 +10,17 @@ $ brew install gnupg
 ```shell
 $ mkdir ~/.local
 $ cd ~/.local
-$ git clone https://github.com/alpineyahoo/ckrt.git
-$ cd ckrt
+$ git clone https://github.com/alpineyahoo/sekret.git
+$ cd sekret
 $ make
 ```
 
 ## Usage
 ```shell
-$ ckrt init # initialize crkt. never re-run!!
-$ ckrt edit <file>
-$ ckrt cat <file>
+$ sekret init # initialize sekret. never re-run!!
+$ sekret edit <file>
+$ sekret cat <file>
 ```
 
 ## Notes
-`ckrt` uses `gpg`, `mktemp`, and `uuidgen`. Files are identified by their inodes.
+`sekret` uses `gpg`, `mktemp`, and `uuidgen`. Files are identified by their inodes.
