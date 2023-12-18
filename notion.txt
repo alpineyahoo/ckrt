@@ -1,3 +1,6 @@
+Edit ~/.config/sekret/config if you use $GNUPGHOME (and don't use ~/.gnupg) directory.
+---
 # run one of these below:
-cp gpg/gpg-agent.conf ~/.gnupg/gpg-agent.conf
-cp gpg/gpg-agent.conf $GNUPGHOME/gpg-agent.conf
+cat gpg/gpg-agent.conf >> ~/.gnupg/gpg-agent.conf
+cat gpg/gpg-agent.conf >> $GNUPGHOME/gpg-agent.conf
+---
