@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
 uuidgen > $HOME/.config/sekret/uuid
+gpg --pinentry-mode=loopback --quick-gen-key --passphrase-file=$HOME/.config/sekret/uuid local.sekret default default 0
+# -n: dry-run
