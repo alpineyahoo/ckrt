@@ -1,0 +1,5 @@
+# Uncomment GNUPGHOME environment variable section and set it if necessary.
+# e.g. export GNUPGHOME=$HOME/.local/share/gnupg
+# default is ~/.gnupg according to the official
+
+#export GNUPGHOME=/path/to/gnupghome
