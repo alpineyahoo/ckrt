@@ -3,7 +3,7 @@ Secret text file editor/viewer for MacOS
 
 ## Requirement
 ```shell
-$ brew install gnupg
+$ brew install gnupg pinentry-mac
 ```
 
 ## Install
