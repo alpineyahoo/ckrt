@@ -1,0 +1,3 @@
+# run one of these below:
+cp gpg/gpg-agent.conf ~/.gnupg/gpg-agent.conf
+cp gpg/gpg-agent.conf $GNUPGHOME/gpg-agent.conf
