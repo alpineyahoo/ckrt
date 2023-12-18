@@ -1,8 +1,8 @@
 .PHONY: all
 all:
-	@mkdir -p $HOME/.config/ckrt
-	@mkdir -p $HOME/.local/share/ckrt
-	@chmod 700 $HOME/.local/ckrt/bin/ckrt
-	@echo "alias ckrt=$HOME/.local/ckrt/bin/ckrt \# github.com/alpineyahoo/ckrt" >> ~/.zshrc
-	@echo "alias ckrt=$HOME/.local/ckrt/bin/ckrt \# github.com/alpineyahoo/ckrt" >> ~/.bashrc
+	@mkdir -p $HOME/.config/sekret
+	@mkdir -p $HOME/.local/share/sekret
+	@chmod 700 $HOME/.local/sekret/bin/sekret
+	@echo "alias sekret=$HOME/.local/sekret/bin/sekret \# github.com/alpineyahoo/sekret" >> ~/.zshrc
+	@echo "alias sekret=$HOME/.local/sekret/bin/sekret \# github.com/alpineyahoo/sekret" >> ~/.bashrc
 	@echo "Run:\n> source ~/.zshrc\nor\n> source ~/.bashrc\nto take effect."
