@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+cd "$(dirname "$(readlink -f "$0")")"
+source $HOME/.config/ckrt/config
+case "$1" in
+	"cat" | "edit" | "help" | "init" ) bash $1 "${@:2}" ;;
+	* ) echo "Argument error; check your subcommand(cat, edit, help, or init)" ;;
+esac
