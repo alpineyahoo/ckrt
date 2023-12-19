@@ -1,4 +1,4 @@
-# ckrt
+# sekret
 Secret text file editor/viewer for MacOS
 
 ## Requirement
